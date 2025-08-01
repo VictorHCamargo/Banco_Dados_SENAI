@@ -9,8 +9,8 @@
       <ExibirLog Valor="False"/>
     </Configuracoes>
     <Arquivos>
-      <Arq01 Valor="C:\USERS\2DEVT-A\DESKTOP\BANCO DE DADOS\BRMODELO.2.0\EXEMPLO MODELAGEM.BRM"/>
-      <Arq02 Valor=""/>
+      <Arq01 Valor="C:\USERS\2DEVT-A\DESKTOP\SENAI\BANCO DE DADOS\BRMODELO.2.0\TAREFA PIZZARIA.BRM"/>
+      <Arq02 Valor="C:\USERS\2DEVT-A\DESKTOP\SENAI\BANCO DE DADOS\BRMODELO.2.0\EXEMPLO MODELAGEM.BRM"/>
       <Arq03 Valor=""/>
       <Arq04 Valor=""/>
       <Arq05 Valor=""/>
@@ -18,37 +18,37 @@
   </CONFIGURACAO>
 	<AJUDA>
     <Flash>##
-## Carlos H. Cândido
-## Ajuda rápida do sistema.
+## Carlos H. Cï¿½ndido
+## Ajuda rï¿½pida do sistema.
 ## 
 [NOME MODELO]
 [NOME]
-Descrição/identificação do objeto.
+Descriï¿½ï¿½o/identificaï¿½ï¿½o do objeto.
 [TEXTO TEXTO]
 [PAPEL]
-Descrição do papel da cardinalidade (descrição/observação).
+Descriï¿½ï¿½o do papel da cardinalidade (descriï¿½ï¿½o/observaï¿½ï¿½o).
 [ALINHAMENTOLT]
-Reposiciona o controle quanto a posição no modelo (esquerda ou direita).
+Reposiciona o controle quanto a posiï¿½ï¿½o no modelo (esquerda ou direita).
 [ALINHAMENTOWH]
 Reposiciona o controle quanto a altura ou largura.
 [OBS]
-Algo importante a ser anotado para posterior observação.
+Algo importante a ser anotado para posterior observaï¿½ï¿½o.
 [ID]
-Identificador único do objeto no modelo.
+Identificador ï¿½nico do objeto no modelo.
 [Auto Relacionado]
-A entidade está auto relacionada
+A entidade estï¿½ auto relacionada
 [Especializada]
-A entidade está especializada
-[Ent. Ass. Relação: Nome]
+A entidade estï¿½ especializada
+[Ent. Ass. Relaï¿½ï¿½o: Nome]
 Nome do relacionamento contido na entidade associativa
-[Ent. Ass. Relacão: Dicionario]
-Dicionário de dados do relacionamento contido na entidade associativa
-[Ent. Ass. Relação: Observacao]
-Algo importante a ser anotado para posterior observação sobre o relacionamento contido na entidade associativa
-[Card. Fixar posição]
-Fixar posição: Se fixada, a cardinalidade não se moverá ao mover-se a entidade ou relacionamento ao qual ela esteja vinculada.
-[Card. Posição da Linha]
-Alinhamento da fixação da cardinalidade
+[Ent. Ass. Relacï¿½o: Dicionario]
+Dicionï¿½rio de dados do relacionamento contido na entidade associativa
+[Ent. Ass. Relaï¿½ï¿½o: Observacao]
+Algo importante a ser anotado para posterior observaï¿½ï¿½o sobre o relacionamento contido na entidade associativa
+[Card. Fixar posiï¿½ï¿½o]
+Fixar posiï¿½ï¿½o: Se fixada, a cardinalidade nï¿½o se moverï¿½ ao mover-se a entidade ou relacionamento ao qual ela esteja vinculada.
+[Card. Posiï¿½ï¿½o da Linha]
+Alinhamento da fixaï¿½ï¿½o da cardinalidade
 [Card. Tamanho aut.]
 Controle do tamanho do desenho da cardinalidade
 [Entidade fraca]
@@ -57,9 +57,9 @@ Tipo de entidade
 [Atrib. tamanho aut.]
 Controle do tamanho do desenho do atributo
 [Atrib. Desvio]
-Desvia o encaixe da ligação do atributo ao relacionamento (desvio em pontos)
+Desvia o encaixe da ligaï¿½ï¿½o do atributo ao relacionamento (desvio em pontos)
 [Posicionamento]
-Alinhamento da fixação do atributo
+Alinhamento da fixaï¿½ï¿½o do atributo
 [Identificador]
 O atributo pode ser identificador, Opcional, composto e/ou multivalorado
 [Opcional]
@@ -68,19 +68,19 @@ O atributo pode ser identificador, Opcional, composto e/ou multivalorado
 O atributo pode ser identificador, Opcional, composto e/ou multivalorado
 [Multivalorado]
 O atributo pode ser identificador, Opcional, composto e/ou multivalorado
-[Card. Mínima]
-Cardinalidade mínima do atributo.
+[Card. Mï¿½nima]
+Cardinalidade mï¿½nima do atributo.
 Ex: (1, n), neste caso o "1"
-[Card. Máxima]
-Cardinalidade máxima do atributo.
+[Card. Mï¿½xima]
+Cardinalidade mï¿½xima do atributo.
 Ex: (1, n), neste caso o "n"
 [TipoDoValor]
-Tipo do atributo, podendo ser por exemplo: Texto(n), Número(n), boleano e etc. (ou qualquer outro definido pelo usuário)
+Tipo do atributo, podendo ser por exemplo: Texto(n), Nï¿½mero(n), boleano e etc. (ou qualquer outro definido pelo usuï¿½rio)
 [Exclusiva]
-Especialização exclusiva (onde A é B "ou" C) não exclusiva (A pode ser B e/ou C)
+Especializaï¿½ï¿½o exclusiva (onde A ï¿½ B "ou" C) nï¿½o exclusiva (A pode ser B e/ou C)
 [Esp. Parcial]
-Especialização parcial
-[Chave Primária]
+Especializaï¿½ï¿½o parcial
+[Chave Primï¿½ria]
 [Chave Estrangeira]
 [Tipo]
 Tipo de dado no modelo
@@ -88,7 +88,7 @@ Tipo de dado no modelo
 Integridade referencial: Tabela de origem do campo chave estrangeira.
 [CampoOrigem]
 Integridade referencial: Campo de origem da chave estrangeira.
-[Posição (Índice)]
+[Posiï¿½ï¿½o (ï¿½ndice)]
 Ordenamento do campo dentro a tabela
 [Cor]
 [Qtd. Campos]
@@ -98,19 +98,19 @@ Ordenamento do campo dentro a tabela
 Forma de desenho da moldura do texto.
 [Alin. Texto]
 [RPOSISETA]
-Posiciona uma seta ao lado do relacionamento para enfatizar a melhor direção de leitura do diagrama
+Posiciona uma seta ao lado do relacionamento para enfatizar a melhor direï¿½ï¿½o de leitura do diagrama
 [TBComplemento]
-Mineumônico de um complemento que, no futuro, poderá ser convertido em DDL para a futura tabela.
+Mineumï¿½nico de um complemento que, no futuro, poderï¿½ ser convertido em DDL para a futura tabela.
 [CPComplemento]
-Mineumônico de um complemento que, no futuro, poderá ser convertido em DDL para o futuro campo.
+Mineumï¿½nico de um complemento que, no futuro, poderï¿½ ser convertido em DDL para o futuro campo.
 [TBChaves]
-Chave(s) primária da tabela (nesta ordem).
+Chave(s) primï¿½ria da tabela (nesta ordem).
 [OnUpdate]
-DDL ansi 2003: em caso de update na tabela pai, o que deverá acontecer.
+DDL ansi 2003: em caso de update na tabela pai, o que deverï¿½ acontecer.
 [OnDelete]
-DDL ansi 2003: em caso de exclusão na tabela pai, o que deverá acontecer.
+DDL ansi 2003: em caso de exclusï¿½o na tabela pai, o que deverï¿½ acontecer.
 [TBcOrdem]
-Ordem de conversão da tabela para o modelo físico.
+Ordem de conversï¿½o da tabela para o modelo fï¿½sico.
 </Flash>
   </AJUDA>
 </APP>
