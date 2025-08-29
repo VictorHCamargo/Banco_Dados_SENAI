@@ -75,10 +75,22 @@ alter table funcionarios drop column sexo;
 -- Renomear tabela
 alter table empregado rename to empregados;
 -- Renomear coluna
-alter table empregado change cpf cic_funcionario varchar(18);
+alter table empregados change cpf cic_funcionario varchar(18);
 -- Trocar tamanho de dados
 alter table empregados modify column nome_funcionario varchar(200);
 
 alter table fornecedores modify column estado char(2) default 'MG';
 
-alter table empregados add primary key (cic_funcionario);
+-- Alterar chave primária
+alter table empregados modify id_funcionario int not null;
+alter table empregados drop primary key;
+
+alter table empregados add primary key (id_funcionario,cic_funcionario);
+
+
+-- Novos conceitos
+create table tipo_produtos (
+cod_tipo_produto int auto_increment primary key not null,
+tipo_produto varchar(255) not null,
+index (cod_tipo_produto)
+);
