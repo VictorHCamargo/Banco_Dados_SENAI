@@ -33,3 +33,7 @@ foreign key (fcodigo) references fornecedores (fcodigo),
 foreign key (pcodigo) references pecas (pcodigo),
 foreign key (prcod) references projetos (prcod)
 );
+-- INDEXES
+
+CREATE INDEX idx_pecas on pecas(pcodigo);
+SHOW INDEX FROM pecas;
